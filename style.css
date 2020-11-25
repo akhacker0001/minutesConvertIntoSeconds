@@ -1,0 +1,42 @@
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: red;
+    margin: auto;
+    margin-top: 100px;
+
+}
+input{
+    height: 33px;
+    width: 200px;
+    border-radius:5px;
+    position: relative;
+    outline: none;
+    font-size: 18px;
+}
+#input1{
+    left: 30px;
+    top: 50px;
+}
+#input2{
+    left: 60px;
+    top: 150px;
+
+}
+button{
+    height: 33px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    right: 250px;
+}
+p{
+    color: white;
+    position: relative;
+    left: 350px;
+    font-size: 20px;
+    margin: auto;
+    top: 20px;
+}
