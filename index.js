@@ -6,11 +6,11 @@ document.querySelector("button").addEventListener("click",function(){
     var inputValue = input1.value;
     var seconds = inputValue*60;
     if (inputValue>0) {
-        input2.value = seconds;
+        input2.value = seconds + "  seconds" ;
     }else{
          var inputValue2 = input2.value;
          var minutes = inputValue2/60;
-         input1.value = minutes.toFixed(2);
+         input1.value = minutes.toFixed(2) + "  minutes";
     }
   
   
